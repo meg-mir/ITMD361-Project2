@@ -1,0 +1,190 @@
+/* All Pages */
+html { 
+
+}
+img {
+align-self: center;
+max-width:100%;
+height: auto;
+border-radius: 10%;
+width: 900px;
+}
+video{
+  align-self: center;
+  max-width:100%;
+  height: auto;
+  border-radius: 7.5%;
+}
+div {
+  
+}
+h1, h4  {
+  font-variant: small-caps;
+}
+.imgitem  {
+  padding-bottom: 7.5%;
+  padding-top: 0%;
+  
+}
+/* Navigation Panel CSS */
+a.navlink:link{
+  background-color: #9797a6;
+  color: #00ffff;
+  padding: 2px 2px;
+  border: 2px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 75%;
+}
+a.navlink:visited{
+  color: #00ff40;
+}
+a.navlink:hover {
+  font-family: "Arial Black", Gadget, sans-serif;
+  background-color: #333333;
+  font-size: 150%;
+  cursor: crosshair;
+}
+.navlist  {
+ list-style-type: none;
+ padding: 0%;
+}
+#navcontainer {
+  font-size: 1.25em;
+  font-variant: small-caps;
+  position: sticky;
+  top: 0;
+}
+#navbar {
+  top: 0;
+  width: 100%;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #424251;
+  color: grey;
+  text-align: center;
+}
+/* Index Page specific CSS */
+.imgcontain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1.75;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size:1.15em;
+}
+.bodycontain  {
+  font-family: 'Inconsolata',  monospace;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.005em;
+  line-height: 1.25;
+  text-align: center;
+}
+#imgitemarches  {
+  padding-bottom: 7.5%;
+  padding-top: 0%;
+  order: 4;
+}
+#imgitemtoronto  {
+  padding-bottom: 7.5%;
+  padding-top: 0%;
+  order: 5;
+}
+#imgitemskydive  {
+  padding-bottom: 7.5%;
+  padding-top: 0%;
+}
+#imgitemyellowstone {
+  padding-bottom: 7.5%;
+  padding-top: 0%;
+}
+#imgitemireland {
+  padding-bottom: 7.5%;
+  padding-top: 0%;
+}
+#homebody {
+  background: rgb(40,0,184);
+  background: linear-gradient(0deg, rgba(40,0,184,1) 0%, rgba(253,153,45,1) 100%);
+}
+#archimg  {
+  border-radius: 50%
+}
+#yellowimg  {
+  border-radius: 50%
+}
+/* General (Dog) Page specific CSS */  
+.petlist  {
+  list-style-type: square;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
+#petcontain {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  line-height: .75;
+  font-weight: bold;
+}
+#genbody {
+  background: rgb(69,255,0);
+  background: radial-gradient(circle, rgba(69,255,0,1) 0%, rgba(0,14,255,1) 33%, rgba(58,126,124,1) 66%, rgba(0,88,13,1) 100%);
+}
+/* Resume specific CSS */
+#resbody  {
+background: #C0C0C0;
+font-family: sans-serif;
+}
+#restext  {
+  padding-left: 10%;
+  list-style-type: square;
+  padding-top: 100px;
+  width: 800px;
+  word-wrap: normal;
+}
+#contactinfocontain  {
+  display: grid;
+  grid-template-columns:250px 250px 300px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "name phone email1"
+    ". . email2";
+  align-items: center;
+  line-height: .75;
+  column-count: 3;
+  column-gap: 10px;
+}
+#name {
+  font-size: 1.825em;
+  font-variant: small-caps;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  grid-area: name;
+}
+#number {
+  font-size: 1.25em;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  grid-area: phone;
+}
+#email1 {
+  font-size: 1em;
+  flex-grow: 3;
+  grid-area: email1;
+}
+#email2 {
+  font-size: 1em;
+  grid-area: email2;
+}
