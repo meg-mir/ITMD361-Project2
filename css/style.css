@@ -1,13 +1,10 @@
 /* All Pages */
-html { 
-
-}
 img {
-align-self: center;
-max-width:100%;
-height: auto;
-border-radius: 10%;
-width: 700px;
+  align-self: center;
+  max-width:100%;
+  height: auto;
+  border-radius: 10%;
+  width: 700px;
 }
 video{
   align-self: center;
