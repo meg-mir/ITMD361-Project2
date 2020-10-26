@@ -131,7 +131,7 @@ a.navlink:hover {
 .petlist  {
   list-style-type: square;
   text-align: left;
-  align-items: left;
+  align-items: center;
   justify-content: left;
 }
 #petcontain {
